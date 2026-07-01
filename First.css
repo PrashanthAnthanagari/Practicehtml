@@ -1,0 +1,12 @@
+.abc {
+    border-image-source: 50px;
+    border-image: auto;
+}
+h1 {
+    color:black
+}
+
+button {
+    color:white;
+    background-color:blue
+}
