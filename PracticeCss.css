@@ -39,9 +39,37 @@ h2 {
     height:200px;
     background-color: yellowgreen;
 }
-.button1 {
+.button {
     width:100px;
-    height:40px;
-    background-color: green;
-    position: relative;
+    height:47px;
+    color:black;
+    background-color:yellow;
+    position:fixed;
+    bottom:0;
+}
+.block4 {
+    width:200px;
+    height:200px;
+    background-color: rgb(9, 68, 117);
+}
+.block5 {
+    width:200px;
+    height:200px;
+    background-color: lightpink;
+}
+.nav-bar list {
+    display:flex;
+    justify-content:space-between;
+    background-color:lightcoral;
+    color:black;    
+}
+.nav-bar {
+    position: sticky;
+    display:flex;
+    justify-content:space-between;
+    background-color:lightcoral;
+    color:black; 
+    top:0;
+
+    
 }
