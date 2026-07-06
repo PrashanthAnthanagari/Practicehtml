@@ -2,12 +2,46 @@
     box-sizing: border-box;
     margin:0px
 }
-.block {
+h1{
     width:100px;
     height:100px;
     background-color: blue;
 }
-.block1 {
+h2 {
     width:100px;
-    background-color:rgb(61, 201, 106);
+    height:100px;
+    background-color: red;
+}
+    
+.block22 {
+    display: inline-block;
+    width:100px;
+    background-color:skyblue;
+}
+.abc {
+    display: flex;
+    background-color: skyblue;
+}
+.block1 {
+    width:200px;
+    height:200px;
+    background-color: skyblue;
+}
+.block2
+ {
+    width:200px;
+    height:200px;
+    background-color: rgb(202, 80, 46);
+    position:relative;
+}
+.block3 {
+    width:200px;
+    height:200px;
+    background-color: yellowgreen;
+}
+.button1 {
+    width:100px;
+    height:40px;
+    background-color: green;
+    position: relative;
 }
