@@ -32,8 +32,8 @@ h2 {
     width:200px;
     height:200px;
     background-color: rgb(202, 80, 46);
-    position:relative;
-}
+    
+ }
 .block3 {
     width:200px;
     height:200px;
@@ -43,7 +43,7 @@ h2 {
     width:100px;
     height:47px;
     color:black;
-    background-color:yellow;
+    background-color: yellow;
     position:fixed;
     bottom:0;
 }
@@ -57,19 +57,99 @@ h2 {
     height:200px;
     background-color: lightpink;
 }
-.nav-bar list {
-    display:flex;
-    justify-content:space-between;
-    background-color:lightcoral;
-    color:black;    
-}
 .nav-bar {
-    position: sticky;
+    position:sticky;
+    top:0;
+    background-color: brown;
+}
+.nav-barlist {
     display:flex;
     justify-content:space-between;
-    background-color:lightcoral;
-    color:black; 
-    top:0;
+    background-color:rgb(130, 72, 72);
+    color:black;   
+}
+.box1 {
+    width:100px;
+    height:100px;
+    background-color: aqua;
 
-    
+}
+.box2 {
+    width:100px;
+    height:100px;
+    background-color: lightcoral;
+    position:absolute;
+
+}
+.box3 {
+    width:100px;
+    height:100px;
+    background-color:lightgreen;
+    position: absolute;
+}
+.outer-border {
+    width: 300px;
+    height: 300px;
+    border: 10px solid white;
+    background-color: rgb(228, 82, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+
+}
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px;
+}
+.outer-content {
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    background-color: rgb(237, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+
+}
+.inner-content {
+    width: 90px;
+    height: 90px;
+    border: 5px solid white;
+    background-color: rgb(237, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+}
+.app-dot {
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 186px;
+    left: 806px;
+}
+.app-notification {
+    width:55px;
+    height:55px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 48px;
+    font-size: 23px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 873px;
 }
