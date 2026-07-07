@@ -96,6 +96,14 @@ h2 {
     justify-content: center;
     align-items: center;
     border-radius: 55px;
+     background: linear-gradient(
+        45deg,
+        #833A48 0%,
+        #C13584 30%,
+        #E1306C 55%,
+        #F77737 80%,
+        #FCAF45 100%
+    );
 
 }
 .app-container {
@@ -103,16 +111,23 @@ h2 {
     justify-content: center;
     align-items: center;
     margin:100px;
-}
+   }
 .outer-content {
     width: 200px;
     height: 200px;
     border: 10px solid white;
-    background-color: rgb(237, 68, 68);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 55px;
+     background: linear-gradient(
+        45deg,
+        #833A48 0%,
+        #C13584 30%,
+        #E1306C 55%,
+        #F77737 80%,
+        #FCAF45 100%
+    );
 
 }
 .inner-content {
@@ -124,6 +139,14 @@ h2 {
     justify-content: center;
     align-items: center;
     border-radius: 38px;
+     background: linear-gradient(
+        45deg,
+        #833A48 0%,
+        #C13584 30%,
+        #E1306C 55%,
+        #F77737 80%,
+        #FCAF45 100%
+    );
 }
 .app-dot {
     width: 20px;
@@ -153,3 +176,34 @@ h2 {
     top: 90px;
     left: 873px;
 }
+.whatsup-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.whatsup-message {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(18, 222, 18);;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left:700px;
+    background-color: rgb(18, 222, 18);;
+    border-radius: 30px;
+
+}
+.inner-message1 {
+    width:50px;
+    height: 50px;
+    border: 1px solid white;
+    justify-content: center;
+    background-color: rgb(18, 222, 18);
+    align-items: center;
+    display: flex;
+    position: absolute;
+    border-radius: 50px;
+}
+
