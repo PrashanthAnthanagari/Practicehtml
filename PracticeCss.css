@@ -224,7 +224,7 @@ h2 {
 .netflix-nav-bar {
     display: inline-block;
     position: relative;
-    width: 1440px;
+    width: 1521px;;
     height: 70px;
     border: 4px solid black;
 }
@@ -355,7 +355,7 @@ label2 {
     position: relative;
     background-color: rgb(99 173 225);
     top: 0px;
-    left: -157px;
+    left: 0px;
     border-radius: 7px;
     font-size: 15px;
     color: white;
@@ -367,7 +367,7 @@ label2 {
     position: relative;
     background-color: rgb(99 173 225);
     top: 0px;
-    left: -151px;
+    left: 8px;
     border-radius: 7px;
     font-size: 15px;
     color: white;
@@ -376,7 +376,13 @@ label2 {
 p2 {
     color: white;
     top: 5px;
-    left: -50px;
+    left: 105px;
     font-size: 15px;
     position: relative;
+}
+label3 {
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 101px;
 }
