@@ -221,3 +221,162 @@ h2 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
+.netflix-nav-bar {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 70px;
+    border: 4px solid black;
+}
+p {
+    color:#c2082d;
+    display: inline;
+    position: relative;
+    top: 2px;
+    left: 30px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.netflix-list {
+    display: inline;
+    position: absolute;
+    top: 21px;
+    left: 300px;
+    font-size: 25px;
+}
+.a {
+    display: inline;
+    position: relative;
+    left: 500px;
+    margin: 30px;
+}
+.b {
+    display: inline;
+    position: relative;
+    left: 500;
+    margin: 30px;
+}
+.c {
+    display: inline;
+    position: relative;
+    left: 500;
+    margin: 30px;
+}
+.d {
+    display: inline;
+    position: relative;
+    left: 500px;
+    margin: 30px;
+}
+.login-container {
+    background-color: rgb(20 20 228); 
+    width: 1600px;
+    height: 1440px;
+}
+.login-box {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 118px;
+    left: 550px;
+    background-color: rgb(67 69 212);
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
+.login-heading {
+    position: relative;
+    font-size: 50;
+    color: white;
+    top: 25px;
+    left: 85px;
+}
+p1 {
+    color: white;
+    top: 33px;
+    left: 155px;
+    font-size: 18px;
+    position: relative;
+
+}
+.input-form {
+    position: relative;
+    top:60px;
+    left:40px;
+    color:white;
+}
+.input1 {
+    position: relative;
+    width: 410px;
+    height: 27px;
+    color: rgb(175, 175, 199);
+    background-color: rgb(247, 246, 246);
+    border: 2px solid rgb(247, 246, 246);
+    border-radius: 10px;
+}
+.input2 {
+    position: relative;
+    width: 410px;
+    height: 27px;
+    color: rgb(175, 175, 199);
+    background-color: rgb(247, 246, 246);
+    border: 2px solid rgb(247, 246, 246);
+    color: white;
+    border-radius: 10px;
+}
+.input3 {
+    position: relative;
+    width:20px;
+    height:20px; 
+    border-radius: 5px;
+}
+label1 {
+    top: 0px;
+    left: 170px;
+    position: relative;
+}
+button {
+    position: relative;
+    width: 410px;
+    height: 35px;
+    background-color: rgb(70, 70, 248);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(70, 70, 248);
+    font-size: 18px;
+}
+label2 {
+    top: 0px;
+    left: 160px;
+    position: relative;
+}
+.input4 {
+    width: 200px;
+    height: 35px;
+    position: relative;
+    background-color: rgb(99 173 225);
+    top: 0px;
+    left: -157px;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid rgb(99 173 225);
+}
+.input5 {
+    width: 200px;
+    height: 35px;
+    position: relative;
+    background-color: rgb(99 173 225);
+    top: 0px;
+    left: -151px;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid rgb(99 173 225);
+}
+p2 {
+    color: white;
+    top: 5px;
+    left: -50px;
+    font-size: 15px;
+    position: relative;
+}
