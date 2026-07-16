@@ -2,11 +2,17 @@
     border-image-source: 50px;
     border-image: auto;
 }
-h1 {
+h11 {
     color:black
 }
 
 button {
     color:white;
     background-color:blue
+}
+.first {
+    color:blue;
+}
+h1 {
+    color: brown;
 }
