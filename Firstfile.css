@@ -3,12 +3,15 @@
     margin:0px;
     background-color: white;
 }
-.nav-bar {
+/* .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     top:20px;
     position: relative;
+}
+.hero-content {
+    background-color: red;
 }
 h1 {
     font-size: 20px;
@@ -59,14 +62,17 @@ button1 {
     gap: 20px;
     width: 280px;
     height: 30px;
+    margin-left: 100px;
 }
-button2 {
+.button-taskflow {
     background-color: rgb(135, 128, 210);
     display: flex;
     justify-content: center;
     width: 40px;
     border-radius: 30px;
     height: 24px;
+    margin-left: 20px;
+    color:brown;
 }
 .taskflow3 {
     background-color: rgb(207, 204, 248);
@@ -176,7 +182,7 @@ button3 {
     width: 30px;
     height: 30px;
     left: 10px;
-    top: 340px
+    top: 340px;
 }
 .search-bar {
     left: 74px;
@@ -297,4 +303,417 @@ h4 {
     width: 84px;
     height: 30px;
     left: 845px;
+} */
+ .app-container {
+    padding:30px;
+ }
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.navibar-image {
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+.navibar-heading {
+    position: absolute;
+    display: flex;
+    left:50px;
+    font-size: 20px;
+}
+.nav-bar-list {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left:420px;
+    gap:30px;
+    list-style: none;
+    cursor: pointer;
+}
+.login {
+    position: absolute;
+    display: flex;
+    left: 1200px;
+    gap:20px;
+}
+.taskflow-button {
+    background-color: rgb(90, 90, 251);
+    border: 1px solid rgb(19, 19, 212);
+    position: relative;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 10px;
+    color: white;
+}
+.hero-section {
+    margin-left: 20px;
+}
+.hero-button1 {
+    display: flex;
+    position: absolute;
+    border: 1px solid rgb(215, 186, 231);
+    top:110px;
+    list-style: none;
+    gap:20px;
+    align-items: center;
+    background-color: rgb(215, 186, 231);
+    border-radius: 30px;
+    width:180px;
+}
+.taskflow-button {
+    border-radius: 30px;
+    left:5px;
+    background-color: rgb(176, 68, 234);
+    border-color: rgb(215, 186, 231);  
+    color:black;  
+}
+.taskflow3 {
+    background-color: rgb(215, 186, 231);
+    font-size: 10px;
+}
+.hero-content {
+    font-size: 50px;
+    position: absolute;
+    top:150px;
+    width: 600px;
+    font-weight:bolder;
+}
+.hero-paragraph {
+    top:280px;
+    width:330px;
+    font-size: 14px;
+    position: absolute;
+    color: rgb(100, 98, 98);
+}
+.hero-button {
+    background-color: blue;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 145px;
+    height: 30px;
+    top: 310px;
+    border-radius: 8px;
+}
+.watch-video {
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 34px;
+    top: 355px;
+    left: 210px;
+}
+.left-box {
+    width: 600px;
+    height: 380px;
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 620px;
+    background-color:white;
+    border-radius: 10px;
+}
+.leftbox-dashboard {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 380px;
+}
+.leftbox-image1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 15px;
+}
+.leftbox-image2 {
+    position: absolute;
+    width: 30px;
+    height:30px;
+    left:10px;
+    top:50px;
+}
+.leftbox-image3 {
+    position: absolute;
+    width: 30px;
+    height:30px;
+    left:10px;
+    top:85px;
+}
+.leftbox-image4 {
+    position: absolute;
+    width: 30px;
+    height:30px;
+    left:10px;
+    top:120px;
+}
+.leftbox-image5 {
+    position: absolute;
+    width: 30px;
+    height:30px;
+    left:10px;
+    top:155px;
+}
+.leftbox-image6 {
+    position: absolute;
+    width: 30px;
+    height:30px;
+    left:10px;
+    top:190px;
+}
+.leftbox-image7 {
+    position: absolute;
+    width: 30px;
+    height:30px;
+    left:10px;
+    top:340px;
+}
+.search-bar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    left: 60px;
+    border: 1px solid white;
+    background-color: rgb(228, 231, 232);
+    width: 360px;
+    height: 25px;
+}
+.notification {
+    position: absolute;
+    width: 22px;
+    height: 25px;
+    top: 10px;
+    left: 485px;
+}
+.leftbox-maincontent {
+    position: absolute;
+    display: flex;
+    top:60px;
+    left:60px;
+}
+.leftbox-paragraph {
+    position: absolute;
+    display: flex;
+    top:77px;
+    left:60px;
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(150, 132, 132);
+}
+.left-box1 {
+    position: absolute;
+    width:120px;
+    height:90px;
+    left: 60px;
+    top: 100px;
+}
+.leftbox-head1 {
+    position: absolute;
+    color: rgb(150, 132, 132);
+    font-size: 12px;
+}
+.leftbox-main1 {
+    position: absolute;
+    top:20px;
+}
+.leftbox-footer1 {
+    position: absolute;
+    top:60px;
+    font-size: 12px;
+}
+.left-box2 {
+    position: absolute;
+    width:120px;
+    height:90px;
+    left: 190px;
+    top: 100px;
+}
+.leftbox-head2 {
+    position: absolute;
+    color: rgb(150, 132, 132);
+    font-size: 12px;
+}
+.leftbox-main2 {
+    position: absolute;
+    top:20px;
+}
+.leftbox-footer2 {
+    position: absolute;
+    top:60px;
+    font-size: 12px;
+}
+.left-box3 {
+    position: absolute;
+    width:120px;
+    height:90px;
+    left: 320px;
+    top: 100px;
+}
+.leftbox-head3 {
+    position: absolute;
+    color: rgb(150, 132, 132);
+    font-size: 12px;
+}
+.leftbox-main3 {
+    position: absolute;
+    top:20px;
+}
+.leftbox-footer3 {
+    position: absolute;
+    top:60px;
+    font-size: 12px;
+}
+.left-box4 {
+    position: absolute;
+    width:120px;
+    height:90px;
+    left: 450px;
+    top: 100px;
+}
+.leftbox-head4 {
+    position: absolute;
+    color: rgb(150, 132, 132);
+    font-size: 12px;
+}
+.leftbox-main4 {
+    position: absolute;
+    top:20px;
+}
+.leftbox-footer4 {
+    position: absolute;
+    top:60px;
+    font-size: 12px;
+}
+.testmonial-heading {
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    top: 525px;
+    left: 460px;
+}
+.testmonials-box1 {
+    background-color: white;
+    position: absolute;
+    width: 145px;
+    height: 115px;
+    top: 555px;
+    left: 235px;
+}
+.testmonial-image1 {
+    position: absolute;
+    width: 50px;
+    height: 35px;
+}
+.testmonial1 {
+    position:absolute;
+    font-size: 14px;
+    font-weight: 900;
+    top: 45px;
+}
+.testmonial2 {
+    position: absolute;
+    font-size: 12px;
+    font-weight: lighter;
+    top: 70px;
+}
+.testmonial-box2 {
+    background-color: white;
+    position: absolute;
+    width: 145px;
+    height: 115px;
+    top: 555px;
+    left: 435px;
+}
+.testmonial-image2 {
+    position: absolute;
+    width: 50px;
+    height: 35px;
+}
+.testmonial-box3 {
+    background-color: white;
+    position: absolute;
+    width: 145px;
+    height: 115px;
+    top: 555px;
+    left: 635px;
+}
+.testmonial-image3 {
+    position: absolute;
+    width: 50px;
+    height: 35px;
+}
+.testmonial-box4 {
+    background-color: white;
+    position: absolute;
+    width: 145px;
+    height: 115px;
+    top: 555px;
+    left: 835px;
+}
+.testmonial-image4 {
+    position: absolute;
+    width: 50px;
+    height: 35px;
+}
+.footer1 {
+    background-color: rgb(251, 251, 249);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 75px;
+    top: 690px;
+    left: 170px;
+}
+.footer-heading {
+    font-size: 12px;
+    font-weight: lighter;
+    color:rgba(97, 94, 99, 0.871);
+    display: flex;
+    position: absolute;
+    top:5px;
+
+}
+.footerimage1 {
+    position: absolute;
+    height: 30px;
+    width:50px;
+    left:80px;
+}
+.footerimage2 {
+    position: absolute;
+    height: 30px;
+    width:50px;
+    left:230px;
+}
+.footerimage3 {
+    position: absolute;
+    height: 65px;
+    width: 50px;
+    left: 390px;
+}
+.footerimage4 {
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    left: 560px;
+}
+.footerimage5 {
+    position: absolute;
+    height: 30px;
+    width:50px;
+    left:705px;
+}
+.footerimage6 {
+    position: absolute;
+    height: 30px;
+    width:50px;
+    left:850px;
 }
